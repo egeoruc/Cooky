@@ -15,10 +15,15 @@ function getFormData(form) {
   const regex = /^[a-zA-Z0-9_]+$/;
   if (!regex.test(data.username)) {
     alert("Username can only contain alphanumeric characters and underscores!");
-    return;
-  }
-
-  return data;
+    const regex = /^[a-zA-Z0-9_]+$/;
+  if (!regex.test(data.username)) {	  if (!regex.test(data.username)) {
+    alert("Username can only contain alphanumeric characters and underscores!");	    alert("Username can only contain alphanumeric characters and underscores!");
+    return;	  } else if (data.password !== data.confirmPassword) {
+    alert("Passwords do not match!");
+  } else {
+    return data;
+}
+}
 }
 
 function saveFormDataToLocalStorage(data) {
@@ -29,4 +34,4 @@ function saveFormDataToLocalStorage(data) {
     localStorage.setItem(data.username, jsonData);
   }
 }
-
+}
