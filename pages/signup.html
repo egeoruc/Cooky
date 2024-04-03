@@ -1,5 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head> </head>
-  <body></body>
+<html lang="en">	<html lang="en">
+  <head> </head>	<head>
+  <body></body>	  <meta charset="UTF-8">
+</html>	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <form id="signupForm">
+      <input
+        required
+        minlength="2"
+        maxlength="20"
+        id="firstName"
+        type="text"
+        name="firstName"
+        placeholder="First Name"
+      />
+      <input
+        required
+        minlength="2"
+        maxlength="20"
+        id="lastName"
+        type="text"
+        name="lastName"
+        placeholder="Last Name"
+      />
+      <input
+        required
+        minlength="2"
+        maxlength="20"
+        id="userName"
+        type="text"
+        name="username"
+        placeholder="Username"
+      />
+      <input
+        id="password"
+        type="password"
+        name="password"
+        placeholder="Password"
+      />
+      <button id="submitBtn" type="submit" value="Sign Up" >submit</button>
+    </form>
+  </div>
+  <script src="/functions/signup.js"></script>
+</body>
 </html>
+
