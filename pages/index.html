@@ -3,19 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>Cooky</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Welcome!</h1>
-    <div class="login-forms">
-      <input type="text" name="username" placeholder="username" id="username" />
-      <input type="text" name="password" placeholder="password" id="password" />
+    <div class="main">
+      <div class="formContainer">
+        <div class="innerContainer">
+          <div class="info">
+            <h1>Login</h1>
+            <p>Enter your email below to login to your account</p>
+          </div>
+          <form id="loginForm">
+            <div class="usernameContainer">
+              <label htmlFor="username">Username</label>
+              <input
+                id="username"
+                type="username"
+                placeholder="cookieLover"
+                required
+              />
+            </div>
+            <div class="passwordContainer">
+              <label htmlFor="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="*"
+                required
+              />
+            </div>
+            <button type="submit">Login</button>
+          </form>
+          <div class="signupLink">
+            Don&apos;t have an account?
+            <a href="/pages/signup.html"> Sign up </a>
+          </div>
+        </div>
+      </div>
+      <div class="imageContainer">
+        <img src="/images/logo2.png" alt="Image" width="1920" height="1080" />
+      </div>
     </div>
-    <button id="login">Login</button>
-    <div class="signupLink">
-      <p>If you don't have an account you can sign up from</p>
-      <a href="signup.html">here</a>
-    </div>
+    <script src="/functions/login.js"></script>
   </body>
 </html>
