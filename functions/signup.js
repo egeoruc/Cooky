@@ -5,7 +5,7 @@ form.addEventListener("submit", (event) => {
   const data = getFormData(form);
   saveFormDataToLocalStorage(data);
 });
-
+z;
 function getFormData(form) {
   const formData = new FormData(form);
   const data = {};
@@ -15,15 +15,11 @@ function getFormData(form) {
   const regex = /^[a-zA-Z0-9_]+$/;
   if (!regex.test(data.username)) {
     alert("Username can only contain alphanumeric characters and underscores!");
-    const regex = /^[a-zA-Z0-9_]+$/;
-  if (!regex.test(data.username)) {	  if (!regex.test(data.username)) {
-    alert("Username can only contain alphanumeric characters and underscores!");	    alert("Username can only contain alphanumeric characters and underscores!");
-    return;	  } else if (data.password !== data.confirmPassword) {
+  } else if (data.password !== data.confirmPassword) {
     alert("Passwords do not match!");
   } else {
     return data;
-}
-}
+  }
 }
 
 function saveFormDataToLocalStorage(data) {
@@ -32,6 +28,6 @@ function saveFormDataToLocalStorage(data) {
   } else {
     const jsonData = JSON.stringify(data);
     localStorage.setItem(data.username, jsonData);
+    alert("Account created successfully!");
   }
-}
 }
