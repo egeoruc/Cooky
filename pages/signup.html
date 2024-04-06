@@ -1,60 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">	<html lang="en">
-  <head> </head>	<head>
-  <body></body>	  <meta charset="UTF-8">
-</html>	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-<body>
-  <div>
-    <form id="signupForm">
-      <input
-        required
-        minlength="2"
-        maxlength="20"
-        id="firstName"
-        type="text"
-        name="firstName"
-        placeholder="First Name"
-      />
-      <input
-        required
-        minlength="2"
-        maxlength="20"
-        id="lastName"
-        type="text"
-        name="lastName"
-        placeholder="Last Name"
-      />
-      <input
-        required
-        minlength="2"
-        maxlength="20"
-        id="userName"
-        type="text"
-        name="username"
-        placeholder="Username"
-      />
-      <input
-        id="password"
-        type="password"
-        name="password"
-        placeholder="Password"
-      />
-      <input
-        id="confirmPassword"
-        type="password"
-        name="confirmPassword"
-        placeholder="Confirm Password"
-      />
-      <button id="submitBtn" type="submit" value="Sign Up">submit</button>
-    </form>
-  </div>
-  <script src="/functions/signup.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/css/signup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <img
+          src="/images/Konu.png"
+          alt="Image"
+          width="80"
+          height="60"
+          onclick="window.location.href='/pages/index.html'"
+        />
+        <p>Search best places for your taste!</p>
+      </div>
+    </header>
+    <div class="main">
+      <form id="signupForm">
+        <h1>Sign Up</h1>
+        <div class="names">
+          <div class="firstName">
+            <label>First Name</label>
+            <input
+              required
+              minlength="2"
+              maxlength="20"
+              id="firstName"
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="lastName">
+            <label>Last Name</label>
+            <input
+              required
+              minlength="2"
+              maxlength="20"
+              id="lastName"
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+        </div>
+        <div class="inputs">
+          <label>Username</label>
+          <input
+            required
+            minlength="2"
+            maxlength="20"
+            id="userName"
+            type="text"
+            name="username"
+            placeholder="Username"
+          />
+        </div>
+
+        <div class="inputs">
+          <label>Password</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="inputs">
+          <label>Confirm Password</label>
+          <input
+            id="confirmPassword"
+            type="password"
+            name="confirmPassword"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <button id="submitBtn" type="submit" value="Sign Up">Submit</button>
+        <div class="signupLink">
+          <p>Already have an account?</p>
+          <a href="index.html">Sign in</a>
+        </div>
+      </form>
+    </div>
+    <script src="/functions/signup.js"></script>
+  </body>
 </html>
