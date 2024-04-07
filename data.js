@@ -17,6 +17,8 @@ const restaurants = [
     type: "Burger",
     rating: 4.7,
     logo: "/images/restaurants/zula.png",
+    product1: "/images/restaurants/zula1.png",
+    product2: "/images/restaurants/zula2.png",
     desc: "Crisp, hearty, and flavor-packed—Zula's menu is a haven for burger and hot dog aficionados alike. Each burger is a masterpiece of juiciness and taste, while their hot dogs are a splendid blend of classic and inventive, wrapped in a perfectly toasted bun. Zula promises a bite that's both nostalgic and novel, leaving your taste buds dancing with delight. A culinary haven where every meal is an unforgettable adventure. 🍔🌭✨",
   },
   {
@@ -26,6 +28,8 @@ const restaurants = [
     type: "Boba Tea",
     rating: 4.1,
     logo: "/images/restaurants/monster.png",
+    product1: "/images/restaurants/monster1.png",
+    product2: "/images/restaurants/monster2.png",
     desc: "Refreshing, playful, and bursting with flavor—Monster TeaShop's boba teas are a swirl of delight in every sip. With vibrant, hand-picked ingredients and pearls of chewy boba, each cup is a unique journey through taste and texture. Dive into a refreshing escape; it's not just tea, it's an experience. 🍵✨",
   },
   {
@@ -35,6 +39,8 @@ const restaurants = [
     type: "Burger",
     rating: 3.3,
     logo: "/images/restaurants/akali.png",
+    product1: "/images/restaurants/akali1.png",
+    product2: "/images/restaurants/akali2.png",
     desc: "Juicy, daring, and utterly satisfying—Akali's burgers pack a punch of flavors in every bite. With melt-in-your-mouth cheese and a signature sauce that dances on your taste buds, each burger is a culinary adventure waiting to be savored. A small bite, a giant leap into burger bliss. 🍔✨",
   },
   {
@@ -44,6 +50,8 @@ const restaurants = [
     type: "Burger",
     rating: 3.2,
     logo: "/images/restaurants/whiteBurger.png",
+    product1: "/images/restaurants/white1.png",
+    product2: "/images/restaurants/white2.png",
     desc: "Satisfying, spunky, and irresistibly good—White Burger serves up a delightful medley of flavors. Tucked into each burger is cheese that cozily melts in your mouth and a special sauce that adds a zesty zing. It’s a culinary treat that’s big on taste and perfect for a casual bite that’s anything but ordinary. Ready for a bite-sized journey into delight?",
   },
   {
@@ -53,6 +61,8 @@ const restaurants = [
     type: "Mexican Food",
     rating: "3.6",
     logo: "/images/restaurants/tacoDelReyes.png",
+    product1: "/images/restaurants/taco1.png",
+    product2: "/images/restaurants/taco2.png",
     desc: "Vibrant, zesty, and tantalizing—Taco del Reyes invites you on a spirited journey with every bite. Their tacos, bursting with fresh ingredients and bold spices, are a fiesta on a plate. Wrapped in warm, handmade tortillas, each taco cradles a treasure trove of flavors, from sizzling meats to tangy salsas that sing to your senses. Here, every taco is not just food; it's a celebration of tradition with a modern twist, a bite-sized experience of pure epicurean royalty.",
   },
   {
@@ -62,6 +72,8 @@ const restaurants = [
     type: "Kebab",
     rating: "3.9",
     logo: "/images/restaurants/cigerciSaitUsta.png",
+    product1: "/images/restaurants/cigerciSaitUsta.png",
+    product2: "/images/restaurants/cigerciSaitUsta.png",
     desc: "Warm, inviting, and full of flavor—Ciğerci Sait Usta is a kebab shop where every skewer is a celebration of taste. Beyond their renowned liver kebabs, each offering is a juicy, char-grilled delight, mingling spices and tender meats that are as authentic as they are delicious. It's a bite into the essence of kebab craftsmanship, served up in a friendly, unassuming setting that's all about the joy of good food.",
   },
 ];
