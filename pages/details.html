@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Details</title>
+    <link rel="stylesheet" href="/style/details.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <img src="/images/Konu.png" alt="Image" width="80" height="60" />
+        <p>Search best places for your taste!</p>
+      </div>
+    </header>
+    <div class="container">
+      <div class="imgContainer">
+        <div id="logo">image</div>
+        <div class="smallImages">
+          <div class="smallImage">a</div>
+          <div class="smallImage">b</div>
+        </div>
+      </div>
+      <div class="infoContainer">
+        <div class="nameLocation">
+          <div id="name"></div>
+          <div class="rating">
+            <img
+              class="icon"
+              src="/images/rating.png"
+              alt="star icon"
+              width="15"
+              height="15"
+            />
+            <span id="rating"></span>
+          </div>
+        </div>
+        <div class="locationContainer">
+          <img
+            class="icon"
+            src="/images/map.png"
+            alt="map icon"
+            width="15"
+            height="15"
+          />
+          <div id="location"></div>
+        </div>
+        <div class="typeContainer">
+          <img
+            class="icon"
+            src="/images/type.png"
+            alt="map icon"
+            width="15"
+            height="15"
+          />
+          <div id="type"></div>
+        </div>
+        <div id="desc"></div>
+        <div class="reviewsContainer">
+          <div class="reviewTitle">Reviews</div>
+          <div class="singleReview">
+            <div id="review">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              explicabo doloremque sequi tempora! Amet dignissimos possimus
+              nostrum harum laboriosam aliquid.
+            </div>
+            <div class="rating">
+              <img
+                class="icon"
+                src="/images/rating.png"
+                alt="star icon"
+                width="15"
+                height="15"
+              />
+              <span id="rating">4.5</span>
+            </div>
+          </div>
+        </div>
+        <form class="reviewForm">
+          <textarea
+            name="review"
+            rows="4"
+            cols="50"
+            placeholder="Leave a review..."
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="/data.js"></script>
+    <script src="/functions/detail.js"></script>
+  </body>
+</html>
