@@ -49,6 +49,11 @@
 ![Rating Search Image](images/readme/review.jpg)  
 
 
+# The Page Flow Diagram
+
+![Page FLow](images/readme/pageflow.png)  
+
+
 ## How to run the application?
 
 **1. Clone the repository.**
@@ -80,5 +85,11 @@ _This project was a collective effort with each member contributing to various p
   
 * Fulya Türkmenoğlu
   
-  Took part on designing and implementing the homepage and sign up  
+  Took part on designing and implementing the homepage and sign up
+
+  ## The Page Flow Diagram
+
+
+
+--![Page FLow](images/readme/pageflow.png)  
   
