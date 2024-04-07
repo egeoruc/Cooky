@@ -87,9 +87,5 @@ _This project was a collective effort with each member contributing to various p
   
   Took part on designing and implementing the homepage and sign up
 
-  ## The Page Flow Diagram
 
-
-
---![Page FLow](images/readme/pageflow.png)  
   
