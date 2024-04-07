@@ -17,19 +17,27 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function applyFilters() {
+    const searchQuery = document
+      .getElementById("search-bar")
+      .value.toLowerCase();
     const ratingValue = document.getElementById("rating-select").value;
     const locationValue = document
       .getElementById("location-select")
       .value.toLowerCase();
 
-    let filteredRestaurants = filterRestaurantsByRating(
-      sortedRestaurants,
+    let filteredRestaurants = sortedRestaurants.filter((restaurant) =>
+      restaurant.name.toLowerCase().includes(searchQuery)
+    );
+
+    filteredRestaurants = filterRestaurantsByRating(
+      filteredRestaurants,
       ratingValue
     );
     filteredRestaurants = filterRestaurantsByLocation(
       filteredRestaurants,
       locationValue
     );
+
     displayRestaurants(filteredRestaurants);
   }
 });

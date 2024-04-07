@@ -7,6 +7,8 @@ const restaurants = [
     rating: 4.3,
     logo: "/images/restaurants/saltFried.png",
     desc: "🐔Lezzetin tahtını beraber kuralım!👑😎 Sadece bir tavuk değil tutku da sunduğumuz Salt’ta Şehrin En İyisiyiz!🐔🫶🏻👯‍♀️",
+    product1: "/images/restaurants/salt1.png",
+    product2: "/images/restaurants/salt2.png",
   },
   {
     id: 2,
