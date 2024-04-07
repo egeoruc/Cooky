@@ -49,11 +49,36 @@
 ![Rating Search Image](images/readme/review.jpg)  
 
 
-## How to run the application
+## How to run the application?
+
+**1. Clone the repository.**
+
+git clone https://github.com/egeoruc/Cooky.git
+
+
+**2. Install Dependencies.**
+
+npm install
+
+
+**3. Start the Development Server.**
+
+npm start
 
 
 ## Our Group
 
+_This project was a collective effort with each member contributing to various parts, with a focus on specific areas:_
+
 * Ege Oruç
+  
+  Focused on developing the restaurant page
+  
 * Şevval Eraslan
+  
+  Worked on the details page
+  
 * Fulya Türkmenoğlu
+  
+  Took part on designing and implementing the homepage and sign up  
+  
