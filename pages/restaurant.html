@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="/style/restaurants.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <img
+          src="/images/Konu.png"
+          alt="Image"
+          width="80"
+          height="60"
+          onclick="window.location.href='/pages/index.html'"
+        />
+        <p>Search best places for your taste!</p>
+      </div>
+    </header>
+    <div class="outer">
+      <div class="sort-bar">
+        <div class="search-bar">
+          <input type="text" id="search-bar" placeholder="Search..." />
+          <button id="search-button">Search</button>
+        </div>
+        <div class="location-dropdown">
+          <select id="location-select">
+            <option value="all">All Locations</option>
+            <option value="besiktas">Beşiktaş</option>
+            <option value="kadikoy">Kadıköy</option>
+            <option value="cekmekoy">Çekmeköy</option>
+          </select>
+        </div>
+        <div class="rating-dropdown">
+          <select id="rating-select">
+            <option value="all">All Ratings</option>
+            <option value="4">4 and Over</option>
+            <option value="3">3 and Over</option>
+            <option value="2">2 and Over</option>
+            <option value="1">1 and Over</option>
+          </select>
+        </div>
+      </div>
+      <div id="restaurant-list"></div>
+    </div>
+    <script src="/data.js"></script>
+    <script src="/functions/restaurants.js"></script>
+  </body>
+</html>
